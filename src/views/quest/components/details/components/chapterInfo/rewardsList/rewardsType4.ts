@@ -7,11 +7,18 @@ export const rewardsType4 = (data: Quest["rewardsList"]["4"]) => {
   const { character } = data;
   const list = data.list.map((value) => {
     const sublist = value.list.reduce((result, item) => {
-      result.push(h("li", [h('img', { src: data.info.wallet, alt: 'material' }), h("div", `* ${item.cost}`), h("div", item.value)]));
+      result.push(h("li", [
+        h('img', { src: data.info.wallet, alt: 'material' }),
+        h("div", `* ${item.cost}`),
+        h("div", item.value)
+      ]));
+      
       return result;
     }, [h("li", value.category)]);
+
     return h("ul", { class: "sublist" }, sublist);
   });
+
   const unit = h(unitFace, {
     style: { marginLeft: 0 },
     id: character.id,
@@ -32,5 +39,11 @@ export const rewardsType4 = (data: Quest["rewardsList"]["4"]) => {
         },
       }, "★ "), ` *${index + 1} = ${p}`, h('img', { src: data.info.wallet, alt: 'material' })]);
   });
-  return [h("section", { class: "reward-4" }, [unit, h("ul", { class: "rank" }, rankValue), h("ul", { class: "list" }, list)])];
+
+  return [h("section",
+    { class: "reward-4" },
+    [unit,
+      h("ul", { class: "rank" }, rankValue),
+      h("ul", { class: "list" }, list)])
+  ];
 };

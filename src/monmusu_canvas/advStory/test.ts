@@ -9,7 +9,7 @@ export const test = () => {
   const story = new Story();
   app.addChild(story.view);
   adv.updateStory(list as any);
-
+  // 点击触发
   document.body.onclick = () => {
     adv.next();
   };

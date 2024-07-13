@@ -23,6 +23,7 @@ export const rewardsType5 = (data: Quest["rewardsList"]["5"]) => {
     ])
     );
   };
+
   const list = data.list.reduce((result: VNode[], [reward, premium]) => {
     const li = h("li", [
       h("div", reward.box_message),
@@ -38,5 +39,6 @@ export const rewardsType5 = (data: Quest["rewardsList"]["5"]) => {
     h("div", { class: "title1" }, "reward"),
     h("div", { class: "title1" }, "premium")
   ]));
+  
   return [h("ul", { class: "reward-5", }, list)];
 };

@@ -1,10 +1,12 @@
-import { app } from "./monmusu_canvas/advStory";
+import { app, init } from "./monmusu_canvas/advStory";
 import Resize from "./utils/resize";
 import * as PIXI from "pixi.js";
 import { gsap } from "gsap";
 import { PixiPlugin } from "gsap/PixiPlugin";
 
 export const advStoryInit = () => {
+  init();
+  
   const view = app.PIXI.view;
   const aspectRatio = view.height / view.width;
 

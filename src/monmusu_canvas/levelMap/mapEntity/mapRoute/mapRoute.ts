@@ -21,9 +21,9 @@ export class MapRoute implements MapDrawable {
 
   constructor(private mapDesignConfig: MapDesignConfig) {
     const route = new Container();
-    const path = new Container();
+    const path = route;
 
-    this.view.addChild(route, path);
+    this.view.addChild(route);
     this.viewRoute = route;
     this.viewPath = path;
   }
@@ -98,6 +98,11 @@ export class MapRoute implements MapDrawable {
   }
   /** 绘制路由路径 */
   drawRoutePath(id: number) {
+    const routeData = this.routeDataList[id];
+    if (!routeData.routePath) {
+      routeData.el.onpointertap!({} as any);
+      return;
+    }
     this.routeDataList[id]?.routePath?.draw();
   }
   /** 清除路由路径 */

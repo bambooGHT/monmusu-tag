@@ -5,22 +5,20 @@ import { test } from "./test";
 import { useSWRAsync } from "@/service";
 import { AdvStorySettingData } from "./adv/advStorySettingData";
 
-export const app = new PixiApp({
-  width: designConfig.canvas_width,
-  height: designConfig.canvas_height,
-  antialias: true,
-  backgroundAlpha: 0,
-  resolution: Math.max(2, window.devicePixelRatio)
-});
+export let app: PixiApp;
 
-
-const init = async () => {
+export const init = async () => {
   window.AdvGlobal = {} as any;
+  app = new PixiApp({
+    width: designConfig.canvas_width,
+    height: designConfig.canvas_height,
+    antialias: true,
+    backgroundAlpha: 0,
+    resolution: Math.max(2, window.devicePixelRatio)
+  });
 
   const storySettingData = await useSWRAsync("advStorySettingData");
   AdvGlobal.advStorySettingData = new AdvStorySettingData(storySettingData);
 
   test();
 };
-
-init();

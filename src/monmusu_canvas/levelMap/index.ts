@@ -136,8 +136,9 @@ export class LevelMapControl {
   }
 
   async updateNpc(is: boolean) {
-    const { mapParams, mapConfig, mapEntity } = this;
+    const { mapParams, mapConfig, mapEntity, pixiApp } = this;
     mapConfig.isDrawNpc = is;
+
     if (!mapParams) return;
     if (!is && mapEntity.npcs) {
       mapEntity.npcs.forEach(p => p.destroy());
@@ -151,6 +152,7 @@ export class LevelMapControl {
         return { ...item, summonPointPos: [point.x, point.y] as SizeTuple };
       });
       const npcs = await MapEntity.drawNpc(npcList, mapParams.unitScaleRatio);
+      pixiApp.addChildTo(3, ...npcs.map(p=>p.spine));
       mapEntity.npcs = npcs;
     }
   };
