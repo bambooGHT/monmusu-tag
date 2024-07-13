@@ -1,0 +1,64 @@
+.reward-5 {
+  border: 2px solid var(--color-border);
+
+  > li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    &:nth-child(1) {
+      text-align: center;
+    }
+
+    &:nth-child(n+2) {
+      border-top: 2px solid var(--color-border);
+    }
+
+    > div {
+      flex: 1;
+      text-align: center;
+      font-size: 1.3rem;
+    }
+
+    > div:nth-child(1) {
+      min-width: 160px;
+    }
+
+    .title1 {
+      font-weight: bold;
+      font-size: 1.45rem;
+    }
+
+    .reward-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex: 1;
+      box-sizing: border-box;
+      padding: 3px 0;
+      border-left: 2px solid var(--color-border);
+      text-align: center;
+      font-size: 1.2rem;
+
+      li {
+        padding: 0 5px;
+
+        .icon-img {
+          cursor: pointer !important;
+        }
+      }
+    }
+    @media (width<=760px) {
+      > div:nth-child(1) {
+        flex: auto;
+        margin: 3px 0;
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    .reward-list:nth-of-type(1) {
+      border-left: 0;
+    }
+  }
+}

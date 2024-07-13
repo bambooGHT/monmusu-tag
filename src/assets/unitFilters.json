@@ -1,0 +1,287 @@
+{
+  "job": [
+    {
+      "is": false,
+      "id": 11011,
+      "name": "ウォリアー",
+      "list": [
+        {
+          "is": false,
+          "id": 11011,
+          "name": "ウォリアー（曲刀）"
+        },
+        {
+          "is": false,
+          "id": 11021,
+          "name": "ウォリアー（槍）"
+        },
+        {
+          "is": false,
+          "id": 11031,
+          "name": "ウォリアー（斧）"
+        },
+        {
+          "is": false,
+          "id": 11041,
+          "name": "ウォリアー（拳）"
+        }
+      ]
+    },
+    {
+      "is": false,
+      "id": 12011,
+      "name": "ガーディアン",
+      "list": [
+        {
+          "is": false,
+          "id": 12011,
+          "name": "ガーディアン（剣）"
+        },
+        {
+          "is": false,
+          "id": 12021,
+          "name": "ガーディアン（鈍器）"
+        },
+        {
+          "is": false,
+          "id": 12031,
+          "name": "ガーディアン（大太刀）"
+        }
+      ]
+    },
+    {
+      "is": false,
+      "id": 13011,
+      "name": "スナイパー",
+      "list": [
+        {
+          "is": false,
+          "id": 13011,
+          "name": "スナイパー（弓）"
+        },
+        {
+          "is": false,
+          "id": 13021,
+          "name": "スナイパー（銃）"
+        }
+      ]
+    },
+    {
+      "is": false,
+      "id": 14011,
+      "name": "ソーサラー",
+      "list": [
+        {
+          "is": false,
+          "id": 14011,
+          "name": "ソーサラー（杖）"
+        },
+        {
+          "is": false,
+          "id": 14021,
+          "name": "ソーサラー（本）"
+        }
+      ]
+    },
+    {
+      "is": false,
+      "id": 15011,
+      "name": "ヒーラー",
+      "list": [
+        {
+          "is": false,
+          "id": 15011,
+          "name": "ヒーラー（錫杖）"
+        },
+        {
+          "is": false,
+          "id": 15021,
+          "name": "ヒーラー（オーブ）"
+        }
+      ]
+    },
+    {
+      "is": false,
+      "id": 16011,
+      "name": "スカウト",
+      "list": [
+        {
+          "is": false,
+          "id": 16011,
+          "name": "スカウト"
+        },
+        {
+          "is": false,
+          "id": 16021,
+          "name": "スカウト（団扇）"
+        },
+        {
+          "is": false,
+          "id": 16031,
+          "name": "スカウト（手裏剣）"
+        }
+      ]
+    },
+    {
+      "is": false,
+      "id": 17011,
+      "name": "サポーター",
+      "list": [
+        {
+          "is": false,
+          "id": 17011,
+          "name": "シャーマン"
+        },
+        {
+          "is": false,
+          "id": 17021,
+          "name": "楽器"
+        }
+      ]
+    }
+  ],
+  "rarity": [
+    {
+      "is": false,
+      "id": 82,
+      "name": "コモン",
+      "name2": "R"
+    },
+    {
+      "is": false,
+      "id": 18514,
+      "name": "レア",
+      "name2": "HR"
+    },
+    {
+      "is": false,
+      "id": 21330,
+      "name": "エピック",
+      "name2": "SR"
+    },
+    {
+      "is": false,
+      "id": 5460818,
+      "name": "レジェンド",
+      "name2": "SSR"
+    }
+  ],
+  "summon": [
+    {
+      "is": false,
+      "id": 1,
+      "name": "近接"
+    },
+    {
+      "is": false,
+      "id": 2,
+      "name": "遠隔"
+    },
+    {
+      "is": false,
+      "id": 3,
+      "name": "遠近距离"
+    }
+  ],
+  "move": [
+    {
+      "is": false,
+      "id": 1,
+      "name": "地上"
+    },
+    {
+      "is": false,
+      "id": 2,
+      "name": "飛行"
+    }
+  ],
+  "attr": [
+    {
+      "is": false,
+      "id": 2,
+      "name": "火"
+    },
+    {
+      "is": false,
+      "id": 3,
+      "name": "水"
+    },
+    {
+      "is": false,
+      "id": 4,
+      "name": "風"
+    },
+    {
+      "is": false,
+      "id": 5,
+      "name": "光"
+    },
+    {
+      "is": false,
+      "id": 6,
+      "name": "闇"
+    },
+    {
+      "is": false,
+      "id": 7,
+      "name": "地"
+    }
+  ],
+  "trait": [
+    {
+      "is": false,
+      "id": 1,
+      "name": "亜人"
+    },
+    {
+      "is": false,
+      "id": 2,
+      "name": "獣"
+    },
+    {
+      "is": false,
+      "id": 3,
+      "name": "竜"
+    },
+    {
+      "is": false,
+      "id": 4,
+      "name": "エルフ"
+    },
+    {
+      "is": false,
+      "id": 5,
+      "name": "闇エルフ"
+    },
+    {
+      "is": false,
+      "id": 6,
+      "name": "妖怪"
+    },
+    {
+      "is": false,
+      "id": 7,
+      "name": "ゴーレム"
+    },
+    {
+      "is": false,
+      "id": 8,
+      "name": "ゴブリン"
+    },
+    {
+      "is": false,
+      "id": 9,
+      "name": "天使"
+    },
+    {
+      "is": false,
+      "id": 10,
+      "name": "悪魔"
+    },
+    {
+      "is": false,
+      "id": 11,
+      "name": "コボルト"
+    }
+  ]
+}

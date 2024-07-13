@@ -1,0 +1,72 @@
+.quest-category-list {
+  p span {
+    display: inline-block;
+    width: clamp(60px, 7vw, 75px);
+  }
+
+  li {
+    margin-bottom: 6px;
+    text-shadow:
+      0 0 3px rgb(var(--color-shadow-rgb) / 80%),
+      0 2px 2px rgb(var(--color-shadow-rgb) / 50%),
+      0 4px 2px rgb(var(--color-shadow-rgb) / 40%), ;
+    font-weight: bold;
+    font-size: clamp(1.25rem, 1.55vw, 1.65rem);
+
+    a {
+      position: relative;
+      color: var(--text-color-2);
+
+      > p {
+        position: absolute;
+        bottom: 22px;
+        z-index: 10;
+
+        &:nth-child(1) {
+          bottom: 40px;
+        }
+      }
+    }
+
+    figure {
+      position: relative;
+      padding-bottom: 94.53%;
+    }
+
+    source,
+    img {
+      width: auto;
+      height: 100%;
+      @include position-abs-center;
+    }
+
+    figcaption {
+      position: absolute;
+      bottom: -11px;
+      padding: 2px 0;
+      width: 100%;
+      background: url('@/assets/eventListText.png') center/cover no-repeat;
+      text-align: center;
+      @include text-ellipsis;
+    }
+
+    @media (width<=740px) {
+      width: 33.33%;
+
+      figure {
+        padding-bottom: 62.64%;
+      }
+
+      p {
+        display: none;
+      }
+    }
+    @media (width<=600px) {
+      width: 50%;
+    }
+  }
+}
+
+p {
+  display: block;
+}

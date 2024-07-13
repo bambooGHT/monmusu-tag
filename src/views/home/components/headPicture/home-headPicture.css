@@ -1,0 +1,113 @@
+@property --angle {
+  syntax: '<angle>';
+  inherits: true;
+  initial-value: -10deg;
+}
+
+.head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.head-img-wh {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+
+.thumbnail {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+
+.thumbnail img {
+  filter: blur(22px);
+}
+
+:is(.img, .thumbnail) {
+  width: 100%;
+  height: 100%;
+}
+
+:is(.img, .thumbnail) img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.img figcaption {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  background: linear-gradient(transparent 0%, rgb(255, 255, 255) 100%);
+  width: 100%;
+  height: 18%;
+  bottom: 0;
+  z-index: 1;
+}
+
+.img figcaption>* {
+  display: inline-block;
+  color: #ffffff;
+  text-shadow: 0 8px 10px #5c93ff;
+}
+
+.img-title {
+  vertical-align: bottom;
+  font-size: clamp(1.6rem, 3.1vw, 3.5rem);
+  margin: 0 20px;
+  margin-right: auto;
+}
+
+.img-title span {
+  display: block;
+  text-align: center;
+}
+
+.gallery {
+  margin: 0 20px;
+  font-weight: bolder;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+  font-size: clamp(2.5rem, 5.5vw, 5rem);
+}
+
+.gallery span {
+  vertical-align: bottom;
+  line-height: 1.2;
+}
+
+.gallery:hover,
+.gallery:active {
+  opacity: 1;
+}
+
+.imganima {
+  mask-image: conic-gradient(#fff 0deg, #fff calc(var(--angle) - 10deg),
+      transparent calc(var(--angle) + 10deg),
+      transparent 360deg), conic-gradient(transparent 360deg,
+      #fff 360deg);
+  z-index: 1;
+  animation: scene-transition 1.5s linear forwards;
+}
+
+.img {
+  position: relative;
+}
+
+.img img {
+  position: absolute;
+}
+
+@keyframes scene-transition {
+  to {
+    --angle: 370deg;
+  }
+}

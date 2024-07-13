@@ -1,0 +1,109 @@
+.message-x {
+  position: absolute;
+  right: -7px;
+  top: -7px;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+
+  &::after,
+  &::before {
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    border-radius: 10px;
+    width: 90%;
+    height: 2px;
+    background-color: black;
+    content: '';
+  }
+
+  &::after {
+    transform: rotateZ(45deg);
+  }
+
+  &::before {
+    transform: rotateZ(-45deg);
+  }
+}
+
+.list-move,
+.list-enter-active,
+.list-leave-active {
+  transition: all .3s;
+}
+
+.list-enter-from {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+
+.list-leave-to {
+  opacity: 0;
+}
+
+.list-leave-active {
+  position: absolute !important;
+}
+
+#main {
+  position: fixed;
+  left: 50%;
+  z-index: 99999;
+  width: 360px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+  font-size: clamp(1.3rem, 1.4vw, 1.45rem);
+  transform: translate(-50%);
+  @media (width<=500px) {
+    width: 260px;
+  }
+}
+
+/* message组件样式 */
+.main-message {
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 15px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  width: 100%;
+  min-height: 50px;
+  text-align: center;
+  @include flex-center;
+
+  div {
+    white-space: pre-wrap;
+  }
+}
+
+@mixin colors($color, $back) {
+  background-color: $back;
+  color: $color;
+
+  .message-x {
+    background-color: $back;
+
+    &::after,
+    &::before {
+      background-color: $color;
+    }
+  }
+}
+
+.message-success {
+  @include colors(#64cc30, #F0F9EB)
+}
+
+.message-info {
+  @include colors(#4c98df, #e9f2fa)
+}
+
+.message-warning {
+  @include colors(#dd9c3b, #FDF6EC)
+}
+
+.message-error {
+  @include colors(#F56D6D, #FEF0F0)
+}

@@ -1,0 +1,60 @@
+.unit-spine-load-progress {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  margin: 40px auto 0;
+  border: 3px solid var(--color-border);
+  width: 60%;
+  height: 25px;
+  background: linear-gradient(to left, var(--color-bg-hover), var(--color-bg-hover)) no-repeat transparent;
+  opacity: 0;
+  text-align: center;
+  transition: opacity .3s .8s, visibility .3s .8s;
+
+  span {
+    display: inline-block;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+}
+
+/* 背景模糊 */
+.backdrop-filter {
+  background-color: rgb(255 255 255 / 30%) !important;
+  backdrop-filter: blur(1px);
+}
+
+.load-progress-show {
+  visibility: visible;
+  opacity: 1;
+  transition: 0s;
+}
+
+article {
+  position: relative;
+  z-index: 9;
+}
+
+.unit-spine-tabs {
+  display: flex;
+  position: absolute;
+  right: 50px;
+  top: 0;
+  top: 7px;
+  z-index: 100;
+  justify-content: flex-end;
+  width: max-content;
+  user-select: none;
+
+  &-list {
+    margin-left: 10px;
+    width: 20px;
+    height: 24px;
+    line-height: 23px;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,68 @@
+.reward-4 {
+  .rank li {
+    display: flex;
+    margin-right: 10px;
+  }
+
+  :is(.rank, .sublist) li {
+    height: 29px;
+    line-height: 2.929px;
+  }
+
+  .rank,
+  .sublist li:nth-child(n+2) {
+    display: flex;
+  }
+
+  .list {
+    display: grid;
+    grid-template-areas: "level skill-lv awakening";
+    box-sizing: border-box;
+    border: 2px solid var(--color-border);
+    text-align: center;
+    font-size: 1.25rem;
+    @media (width<=740px) {
+      grid-template-areas:
+        "level skill-lv"
+        "level awakening";
+      grid-template-rows: auto 1fr;
+    }
+
+    .sublist:nth-child(1) {
+      grid-area: level;
+    }
+
+    .sublist:nth-child(2) {
+      grid-area: skill-lv;
+    }
+
+    .sublist:nth-child(3) {
+      grid-area: awakening;
+    }
+
+    .sublist {
+      li:nth-child(n+2) {
+        div:nth-child(1) {
+          flex: 0 0 40px;
+        }
+
+        div:nth-child(2) {
+          flex: 0 0 50px;
+          text-align: left;
+        }
+
+        div:nth-child(3) {
+          flex: 1;
+        }
+      }
+
+      &:nth-child(odd) li:nth-child(n+2):nth-of-type(even) {
+        background-color: rgb(var(--color-bg-rgb-2) / 65%);
+      }
+
+      &:nth-child(even) li:nth-child(n+2):nth-child(odd) {
+        background-color: rgb(var(--color-bg-rgb-2) / 65%);
+      }
+    }
+  }
+}

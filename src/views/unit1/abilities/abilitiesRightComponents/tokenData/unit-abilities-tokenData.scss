@@ -1,0 +1,22 @@
+.token-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 5px;
+  width: 95%;
+
+  li {
+    width: 20%;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+  }
+}
+
+@media (width <=575px) {
+  .token-data {
+    li {
+      width: 50%;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.unit-list-info {
+  display: grid;
+  justify-content: space-evenly;
+  margin-bottom: 8px;
+  padding: 5px 3px;
+  background-color: var(--color-bg-hover-2);
+  grid-template-columns: repeat(auto-fill, clamp(90px, 10.9vw, 130px));
+  gap: 8px 3px;
+
+  li {
+    background: var(--color-bg);
+    box-shadow:
+      4.1px 4.1px 0.6px rgb(var(--color-shadow-rgb) / 10%),
+      6.8px 6.8px 1.7px rgb(var(--color-shadow-rgb) / 5.2%),
+      15px 15px 7px rgb(var(--color-shadow-rgb) / 3.6%);
+
+    @include item-visibility(150px);
+  }
+}

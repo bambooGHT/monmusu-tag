@@ -1,0 +1,29 @@
+.canvasRender {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.canvasRender-left {
+  position: relative;
+  margin-right: 5px;
+  flex: 1;
+}
+
+.canvasRender-right {
+  width: 30%;
+  max-width: 355px;
+}
+
+.canvas-box {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  user-select: none;
+}
+
+@media (width <=860px) {
+  .canvasRender-left {
+    margin: 0 auto;
+  }
+}

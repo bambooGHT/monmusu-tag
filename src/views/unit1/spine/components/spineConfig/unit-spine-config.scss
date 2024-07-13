@@ -1,0 +1,174 @@
+.spine-config {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: clamp(1.3rem, 1.75vw, 1.7rem);
+
+  > * {
+    position: relative;
+    z-index: 10;
+  }
+
+  &-box {
+    @include position-abs-center;
+    visibility: hidden;
+    width: calc(100% - 5px);
+    height: calc(100% - 5px);
+    background-color: rgb(var(--color-bg-rgb) / 75%);
+    backdrop-filter: blur(2px);
+    opacity: 0;
+    transition: opacity .3s, visibility .3s;
+  }
+
+  &-display-button1 {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    width: min-content;
+    user-select: none;
+
+    label {
+      cursor: pointer;
+    }
+
+    path {
+      fill: var(--text-color-2);
+      transition: .2s ease-out;
+    }
+  }
+
+  &-display-button2 {
+    display: block;
+    position: absolute;
+    right: 0;
+    margin: 5px 6px 0 0;
+    margin-left: auto;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+
+    &:active {
+      &::before,
+      &::after {
+        background-color: var(--color-bg-hover);
+      }
+    }
+
+    &::before,
+    &::after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 2px;
+      height: 100%;
+      background-color: var(--text-color);
+      content: '';
+    }
+
+    &::before {
+      transform: rotateZ(-45deg);
+    }
+
+    &::after {
+      transform: rotateZ(45deg);
+    }
+  }
+
+}
+
+.isDisplay {
+  .spine-config-display-button1 {
+    path {
+      fill: var(--color-bg-checked);
+    }
+  }
+
+  .spine-config-box {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+input:not([type="number"]) {
+  display: none;
+}
+
+select,
+input[type="number"] {
+  box-sizing: content-box;
+  min-width: 60px;
+  line-height: 18px;
+  font-size: clamp(1.35rem, 1.65vw, 1.8rem);
+}
+
+input[type="number"] {
+  width: 50px;
+}
+
+.spine-config-list {
+  display: flex;
+  align-items: center;
+  margin: 3% auto;
+  width: 98%;
+  height: 94%;
+
+  > ul {
+    margin-left: 20px;
+    width: 50%;
+    font-weight: bold;
+
+    li {
+      margin: 10px 0;
+
+      span {
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+.config-switch {
+  li {
+    display: flex;
+    width: 100%;
+
+    span {
+      display: inline-block;
+      width: 70%;
+    }
+  }
+}
+
+.config-options {
+  li span {
+    display: inline-block;
+    width: 70%;
+  }
+}
+
+@media (width <=860px) {
+  .spine-config-list {
+    overflow-y: scroll;
+    flex-direction: column;
+    @include no-scroll;
+
+    > ul {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 0;
+      width: 100%;
+
+      li {
+        margin: 5px;
+        width: 100%;
+      }
+    }
+  }
+
+  .x {
+    width: 25px;
+    height: 25px;
+  }
+}

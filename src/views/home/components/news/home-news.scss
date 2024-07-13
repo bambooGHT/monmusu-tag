@@ -1,0 +1,126 @@
+.news {
+  --color: #C9AD91;
+  display: flex;
+  box-sizing: border-box;
+  padding: 6px 10px 10px 14px;
+  border: 3.5px var(--color) solid;
+  width: 98%;
+  height: clamp(400px, 45vw, 520px);
+  background: linear-gradient(-45deg, var(--color) 8px, rgb(95 78 66 / 0%) 0) bottom right,
+    linear-gradient(45deg, var(--color) 8px, rgb(95 78 66 / 0%) 0) bottom left,
+    linear-gradient(135deg, var(--color) 8px, rgb(95 78 66 / 0%) 0) top left,
+    linear-gradient(-135deg, var(--color) 8px, #5F4E42 0) top right;
+  background-repeat: no-repeat;
+  clip-path: polygon(13px 0, calc(100% - 13px) 0, 100% 13px, 100% calc(100% - 13px),
+      calc(100% - 13px) 100%, 13px 100%, 0 calc(100% - 13px), 0 13px);
+  color: white;
+
+  img {
+    margin-right: 5px;
+    width: 88px;
+    height: 16px;
+    vertical-align: sub;
+  }
+
+  &-list {
+    box-sizing: border-box;
+    padding-right: 10px;
+    width: clamp(230px, 26vw, 300px);
+    height: 100%;
+    font-size: 1.2rem;
+
+    li {
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      padding: 15px 0;
+      cursor: pointer;
+
+      &:nth-child(n+2) {
+        border-top: 1px solid #fff;
+      }
+
+      p {
+        width: 100%;
+      }
+
+    }
+  }
+
+  .current {
+    color: gold !important;
+  }
+
+  &-info {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 0 15px;
+    font-weight: bold;
+
+    time {
+      font-size: 1.25rem;
+    }
+
+    .title {
+      font-size: clamp(1.6rem, 1.7vw, 2.1rem);
+    }
+
+    hr {
+      margin: 10px auto;
+    }
+
+    p {
+      white-space: pre-wrap;
+    }
+
+    .text {
+      line-height: 22px;
+      font-weight: 300;
+      font-size: 1.35rem
+    }
+  }
+
+  &-scroll {
+    &::-webkit-scrollbar-track {
+      background: #52483F;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #C9AD91;
+    }
+
+    &::-webkit-scrollbar {
+      width: 9px;
+      height: 9px;
+    }
+    overflow-y: auto;
+  }
+}
+
+@media (width < 740px) {
+  .news {
+    flex-direction: column;
+
+    &-list {
+      display: flex;
+      overflow-y: hidden;
+      margin-bottom: 10px;
+      width: 100%;
+      height: 70px;
+
+      li {
+        padding: 0 2px;
+        max-width: 150px;
+
+        &:nth-child(n+2) {
+          border-left: 1px solid #fff;
+          border-top: 0;
+        }
+
+        p {
+          @include text-ellipsis(1);
+        }
+      }
+    }
+  }
+}

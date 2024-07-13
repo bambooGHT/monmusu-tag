@@ -1,0 +1,28 @@
+svg {
+  z-index: 10;
+  border-radius: 50%;
+  width: clamp(60px, 6vw, 90px);
+  height: clamp(60px, 6vw, 90px);
+  background-color: rgb(218 218 218 / 81.5%);
+  opacity: 1;
+  transform: rotate(-90deg);
+  transition: opacity 0.3s ease;
+  @include position-abs-center;
+}
+
+.load {
+  transition: stroke-dasharray 0.2s;
+  fill: transparent;
+  stroke-width: 50%;
+}
+
+.progress-enter-active,
+.progress-leave-active {
+  transition: .4s;
+}
+
+
+.progress-enter-from,
+.progress-leave-to {
+  opacity: 0;
+}

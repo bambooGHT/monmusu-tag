@@ -1,0 +1,32 @@
+.p {
+  margin: 5px 10px;
+  font-weight: bold;
+  font-size: clamp(1.4rem, 1.55vw, 1.65rem);
+}
+
+.quest-category-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  p {
+    margin: 0 10px;
+    line-height: 1.2;
+    font-size: clamp(1.4rem, 1.55vw, 1.65rem);
+  }
+
+  li {
+    margin: 5px 0;
+    width: 33.33%;
+
+    img {
+      display: block;
+      width: auto;
+      height: 100%;
+      object-fit: cover;
+    }
+    @media all and (width<=900px) {
+      width: 50%;
+
+    }
+  }
+}

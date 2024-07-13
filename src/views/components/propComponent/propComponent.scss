@@ -1,0 +1,163 @@
+.icons {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+
+  :deep(p) {
+    @include text-ellipsis;
+  }
+}
+
+.icon-img {
+  margin: auto;
+  padding-bottom: 0%;
+  width: 51px;
+  height: 51px;
+  cursor: default;
+}
+
+
+/* 伪元素文本hover效果1 */
+.text-tip {
+  position: relative;
+}
+
+.text-tip::after {
+  z-index: 15;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 6px;
+  width: max-content;
+  max-width: clamp(157px, 15vw, 190px);
+  line-height: 16px;
+  text-align: left;
+  content: var(--txt);
+}
+
+.text-tip::before,
+.text-tip::after {
+  visibility: hidden;
+  position: absolute;
+  border: 2px solid var(--color-border);
+  background-color: var(--color-bg);
+  opacity: 0;
+  font-size: clamp(1.2rem, 1.25vw, 1.35rem);
+  transition: .3s;
+}
+
+.text-tip::before {
+  z-index: 16;
+  border-left: none;
+  border-top: none;
+  width: 10px;
+  height: 10px;
+  content: '';
+}
+
+@mixin transforms($s: 0.2, $t: 0%, $r: 0deg) {
+  transform: translate($t) scale($s) rotate($r);
+}
+
+@mixin no-scroll() {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.text-tip-top {
+  &::after,
+  &::before {
+    transform-origin: center bottom;
+  }
+
+  &::after {
+    @include transforms($t: -50%);
+    bottom: calc(100% + 10px);
+  }
+
+  &::before {
+    left: calc(50% - 4px);
+    top: -18px;
+    @include transforms($t: -50%, $r: 45deg);
+  }
+
+  &:focus,
+  &:hover {
+    &::after {
+      @include transforms(1, -50%);
+    }
+
+    &::before {
+      @include transforms(1, -50%, 45deg);
+    }
+  }
+}
+
+.text-tip-right {
+  @include flex-center;
+
+  &::after,
+  &::before {
+    transform-origin: center left;
+  }
+
+  &::after {
+    left: 120%;
+    max-width: clamp(170px, 17vw, 220px);
+    @include transforms;
+  }
+
+  &::before {
+    right: -27px;
+    @include transforms($r: 135deg);
+    margin-top: -10px;
+  }
+
+  &:focus,
+  &:hover {
+    &::after {
+      @include transforms(1);
+    }
+
+    &::before {
+      @include transforms(1, $r: 135deg);
+    }
+  }
+}
+
+.text-tip-bottom {
+  &::after,
+  &::before {
+    transform-origin: center top;
+  }
+
+  &::after {
+    top: calc(100% + 10px);
+    @include transforms($t: -50%);
+  }
+
+  &::before {
+    left: calc(50% - 4px);
+    bottom: -27px;
+    @include transforms($t: -50%, $r: -135deg);
+  }
+
+  &:focus,
+  &:hover {
+    &::after {
+      @include transforms(1, -50%);
+    }
+
+    &::before {
+      @include transforms(1, -50%, -135deg);
+    }
+  }
+}
+
+.text-tip:focus::after,
+.text-tip:focus::before,
+.text-tip:hover::after,
+.text-tip:hover::before {
+  visibility: visible;
+  opacity: 1;
+}

@@ -1,0 +1,64 @@
+.abilities {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+
+  .cutover {
+    margin: 0 8px;
+    cursor: pointer;
+    user-select: none;
+    color: var(--text-color);
+
+    &:hover,
+    &:active {
+      color: var(--text-color-hover);
+    }
+  }
+}
+
+.abilities-box {
+  display: flex;
+  flex-direction: column;
+  @include no-scroll;
+}
+
+.abilities-box-content {
+  justify-content: space-between;
+}
+
+.abilities-left {
+  overflow-y: auto;
+  width: 30.5%;
+}
+
+.abilities-right {
+  overflow-y: auto;
+  width: 67%;
+}
+
+@media (width <=860px) {
+  .abilities {
+    overflow-x: auto;
+    @include scroll;
+    scroll-snap-type: x mandatory;
+    justify-content: initial;
+  }
+
+  .abilities-box {
+    scroll-snap-align: start;
+    justify-content: initial;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding: 0 3px;
+    width: 100% !important;
+  }
+
+  .abilities-left {
+    margin-top: 1px;
+  }
+}
+
+.text-title {
+  text-align: center;
+  font-size: clamp(1.35rem, 1.55vw, 1.7rem);
+}

@@ -1,0 +1,28 @@
+.unit-awakening {
+  box-sizing: border-box;
+  margin-top: 7px;
+  padding-top: 5px;
+  border: 2px solid var(--color-border);
+  width: 100%;
+  text-align: center;
+
+  .text-title {
+    font-size: clamp(1.4rem, 1.45vw, 1.65rem);
+  }
+
+  li {
+    line-height: clamp(28.5px, 3vw, 30px);
+
+    span {
+      display: inline-block;
+
+      &:nth-child(1) {
+        width: 45%;
+      }
+
+      &:nth-child(2) {
+        width: 55%;
+      }
+    }
+  }
+}

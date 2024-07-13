@@ -1,0 +1,61 @@
+.level-enemy-route {
+  position: relative;
+  margin-top: 5px;
+
+  > li {
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    width: 50%;
+    min-height: 45px;
+  }
+
+  > li:nth-child(even) {
+    margin-left: 50%;
+  }
+
+  @media (width<=760px) {
+    > li {
+      position: initial;
+      width: 100%;
+    }
+
+    > li:nth-child(even) {
+      margin-left: 0%;
+    }
+  }
+
+  input,
+  .level-route-draw,
+  .level-route-draw + div > div {
+    height: 35px;
+    line-height: 35px;
+  }
+
+  .level-route-draw + div {
+    flex: 1;
+  }
+
+  &-list {
+    margin: -5px 0 0;
+    width: 100%;
+    font-size: 1.2rem;
+
+    li {
+      display: flex;
+      align-items: center;
+      margin: 0 0 5px;
+      width: 100%;
+      content-visibility: auto;
+      contain-intrinsic-size: auto 45px;
+
+      > p:nth-of-type(1) {
+        margin-left: 10px;
+      }
+
+      > p:nth-of-type(2) {
+        display: inline-block;
+      }
+    }
+  }
+}

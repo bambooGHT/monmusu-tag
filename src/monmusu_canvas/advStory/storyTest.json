@@ -1,0 +1,3394 @@
+{
+  "name": "1100011Nml",
+  "scriptList": [
+    {
+      "scriptRows": [
+        {
+          "rowIndex": 1,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "FadeOut",
+            "Arg1": "#000000",
+            "Arg6": 0.1
+          }
+        },
+        {
+          "rowIndex": 2,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.5
+          }
+        },
+        {
+          "rowIndex": 3,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "FadeIn",
+            "Arg1": "#000000",
+            "Arg6": 1
+          }
+        },
+        {
+          "rowIndex": 4,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 5,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Bgm",
+            "Arg1": "BGM_1003"
+          }
+        },
+        {
+          "rowIndex": 6,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "FadeOut",
+            "Arg1": "#FFFFFF",
+            "Arg6": 0.8
+          }
+        },
+        {
+          "rowIndex": 7,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "BgEvent",
+            "Arg1": "創世記",
+            "Arg3": "layer_挿絵",
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 8,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "FadeIn",
+            "Arg1": "#FFFFFF",
+            "Arg6": 0.5
+          }
+        },
+        {
+          "rowIndex": 9,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Text": "創世記。",
+            "Voice": "ch_30005/Main/1100/1100_30005_258.wav"
+          }
+        },
+        {
+          "rowIndex": 10,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "BgEvent",
+            "Arg1": "創世記(少年追加)",
+            "Arg3": "layer_挿絵",
+            "Arg6": 1
+          }
+        },
+        {
+          "rowIndex": 11,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Text": "神はまず、可愛い少年をお作りになられた。",
+            "Voice": "ch_30005/Main/1100/1100_30005_259.wav"
+          }
+        },
+        {
+          "rowIndex": 12,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Text": "大地は、神の手で少年をその身に置かれ、思った。\n『少年ありがたい』『丁度切らしてた』『泣ける』\n『ありがとう』『少年助かる』『泣ける』と。",
+            "Voice": "ch_30005/Main/1100/1100_30005_260.wav"
+          }
+        },
+        {
+          "rowIndex": 13,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Text": "そんな次第で、母なる大地は少年を愛おしみ、\n少年の世話をするために、沢山のモンスターを生み出した。",
+            "Voice": "ch_30005/Main/1100/1100_30005_261.wav"
+          }
+        },
+        {
+          "rowIndex": 14,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "BgEvent",
+            "Arg1": "創世記(モンスター追加)",
+            "Arg3": "layer_挿絵",
+            "Arg6": 1
+          }
+        },
+        {
+          "rowIndex": 15,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Text": "モンスターたちは当初、それは恐ろしい外見をしていたが、少年が\n怖がるため、その見た目を少しずつ少年に似た形に変えていき、\n後に少女と呼ばれるものに近しい外見へと変わっていった。",
+            "Voice": "ch_30005/Main/1100/1100_30005_262.wav"
+          }
+        },
+        {
+          "rowIndex": 16,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "BgEvent",
+            "Arg1": "創世記(モンスター娘に変化)",
+            "Arg3": "layer_挿絵",
+            "Arg6": 1
+          }
+        },
+        {
+          "rowIndex": 17,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Text": "モンスター娘の誕生である。",
+            "Voice": "ch_30005/Main/1100/1100_30005_263.wav"
+          }
+        },
+        {
+          "rowIndex": 18,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Text": "少年はやがて、モンスター娘たちを率い、女装をさせられたり\n人間抱き枕にされたりしながらも、小さな大地から旅立ち、\nやがて、雑な感じに世界平和をもたらすこととなった。",
+            "Voice": "ch_30005/Main/1100/1100_30005_264.wav"
+          }
+        },
+        {
+          "rowIndex": 19,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Text": "神は基本的に最初に少年を作っただけで、\nあとは特に何もしていないことに気づいたが、\n少年が可愛いので、良しとされた。",
+            "Voice": "ch_30005/Main/1100/1100_30005_265.wav"
+          }
+        },
+        {
+          "rowIndex": 20,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Text": "（ゲシュペンス島・創世記、第１章第１節より抜粋）"
+          }
+        },
+        {
+          "rowIndex": 21,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "FadeOut",
+            "Arg1": "#FFFFFF",
+            "Arg6": 1
+          }
+        },
+        {
+          "rowIndex": 22,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "BgEventOff",
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 23,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "BgEvent",
+            "Arg1": "砂浜に横たわる主人公(ビビ神あり)",
+            "Arg3": "layer_挿絵",
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 24,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "FadeIn",
+            "Arg1": "#FFFFFF",
+            "Arg6": 0.5
+          }
+        },
+        {
+          "rowIndex": 25,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "StopSound",
+            "Arg1": "Voice",
+            "Arg6": 0.6
+          }
+        },
+        {
+          "rowIndex": 26,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "FadeOut",
+            "Arg1": "#FFFFFF",
+            "Arg6": 2
+          }
+        },
+        {
+          "rowIndex": 27,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "StopSound",
+            "Arg1": "Bgm,Se,Ambience",
+            "Arg6": 2
+          }
+        },
+        {
+          "rowIndex": 28,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.4
+          }
+        },
+        {
+          "rowIndex": 29,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "BgEventOff",
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 30,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Bg",
+            "Arg1": "背景_岬",
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 31,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Se",
+            "Arg1": "SE環境_波音"
+          }
+        },
+        {
+          "rowIndex": 32,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "FadeIn",
+            "Arg1": "#FFFFFF",
+            "Arg6": 2
+          }
+        },
+        {
+          "rowIndex": 33,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Text": "ここは、とある島。\n穏やかな波の音だけが静寂を破る唯一の音色。\nそこへ……。"
+          }
+        },
+        {
+          "rowIndex": 34,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "BgEvent",
+            "Arg1": "砂浜に横たわる主人公",
+            "Arg3": "layer_挿絵",
+            "Arg6": 1
+          }
+        },
+        {
+          "rowIndex": 35,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 1
+          }
+        },
+        {
+          "rowIndex": 36,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Text": "一際大きな波音と共に、突如として、少年が……、\nそれも、美少年が岸に打ち上げられた。"
+          }
+        },
+        {
+          "rowIndex": 37,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Text": "少年は息をしていない。"
+          }
+        },
+        {
+          "rowIndex": 38,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Text": "静寂、そして、波の音、更に静寂。\n少年はそのまま静かに海岸の一部になるのかと思われた……が。"
+          }
+        },
+        {
+          "rowIndex": 39,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "FadeOut",
+            "Arg1": "#FFFFFF",
+            "Arg6": 0.2
+          }
+        },
+        {
+          "rowIndex": 40,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "BgEventOff",
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 41,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Bg",
+            "Arg1": "背景_砂浜",
+            "Arg3": "layer_背景",
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 42,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "FadeIn",
+            "Arg1": "#FFFFFF",
+            "Arg6": 0.2
+          }
+        },
+        {
+          "rowIndex": 43,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 44,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt1_Nor",
+            "Arg3": "layer_ビビ神a_中",
+            "Arg5": 800,
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 45,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "BG",
+            "Arg2": "ShakePosition",
+            "Arg3": "time=0.4 x=-16 y=-8",
+            "Arg4": "easeOutQuart",
+            "WaitType": "NoWait"
+          }
+        },
+        {
+          "rowIndex": 46,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "layer_ビビ神a_中",
+            "Arg2": "MoveAdd",
+            "Arg3": "time=0.8 y=-1500",
+            "WaitType": "NoWait"
+          }
+        },
+        {
+          "rowIndex": 47,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "ビビ神",
+            "Arg2": "RotateBy",
+            "Arg3": "time=1.2 z=240",
+            "WaitType": "NoWait"
+          }
+        },
+        {
+          "rowIndex": 48,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 49,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Bgm",
+            "Arg1": "BGM_1001",
+            "Arg4": -1,
+            "Arg6": 0,
+            "WaitType": 0
+          }
+        },
+        {
+          "rowIndex": 50,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "げっげっげっ、げふぉっ！！"
+          }
+        },
+        {
+          "rowIndex": 51,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Text": "少年は、猫が毛玉を吐く時のような音を立てて、\n何かを吐き出し、咳き込みながら呼吸を再開した。"
+          }
+        },
+        {
+          "rowIndex": 52,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "CharacterOff",
+            "Arg1": "ビビ神"
+          }
+        },
+        {
+          "rowIndex": 53,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "LayerReset",
+            "Arg1": "layer_ビビ神a_中"
+          }
+        },
+        {
+          "rowIndex": 54,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.02
+          }
+        },
+        {
+          "rowIndex": 55,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt1_Nor",
+            "Arg3": "layer_ビビ神a_中",
+            "Arg5": -800,
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 56,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.02
+          }
+        },
+        {
+          "rowIndex": 57,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "layer_ビビ神a_中",
+            "Arg2": "MoveTo",
+            "Arg3": "time=1 y=650",
+            "Arg4": "easeOutBack"
+          }
+        },
+        {
+          "rowIndex": 58,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Param",
+            "Arg1": " ch30001=\"？？？\""
+          }
+        },
+        {
+          "rowIndex": 59,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Bgm",
+            "Arg1": "BGM_1001",
+            "Arg4": -1,
+            "Arg6": 0,
+            "WaitType": 0
+          }
+        },
+        {
+          "rowIndex": 60,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Text": "ふう、人工呼吸成功ですね。\nまさか、驚きの吸引力で気管支に至るまで吸い込まれるとは\n夢にも思いませんでしたが、何とか脱出も出来ました。",
+            "Voice": "ch_30005/Main/1100/1100_30005_001.wav"
+          }
+        },
+        {
+          "rowIndex": 61,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Text": "先刻、少年の救命活動をし、\n今は涎まみれになっている小さな少女。"
+          }
+        },
+        {
+          "rowIndex": 62,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Text": "手乗りサイズの猫耳メイド服を身にまとった少女は、\nじゃぶじゃぶと涎を海水で洗う。"
+          }
+        },
+        {
+          "rowIndex": 63,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "う、うう……。"
+          }
+        },
+        {
+          "rowIndex": 64,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Param",
+            "Arg1": " ch30001=\"手乗り猫耳メイド\""
+          }
+        },
+        {
+          "rowIndex": 65,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt3_Gla",
+            "Arg3": "layer_ビビ神a_中",
+            "Arg6": 0.3,
+            "Text": "目を覚ましましたか。\nどこか、痛む所や苦しい所、痒い所はありませんか？",
+            "Voice": "ch_30005/Main/1100/1100_30005_002.wav"
+          }
+        },
+        {
+          "rowIndex": 66,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "頭が少し……。"
+          }
+        },
+        {
+          "rowIndex": 67,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt1_Nor",
+            "Arg3": "layer_ビビ神a_中",
+            "Arg6": 0.3,
+            "Text": "痒いですか。",
+            "Voice": "ch_30005/Main/1100/1100_30005_003.wav"
+          }
+        },
+        {
+          "rowIndex": 68,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "いえ、痒くは……ていうか、ちっちゃ！？"
+          }
+        },
+        {
+          "rowIndex": 69,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "ちっちゃい人ですね……あなたは一体……いえ、それより……、\nここはどこですか……それに、僕は一体誰、なんでしょうか？"
+          }
+        },
+        {
+          "rowIndex": 70,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "なにも……なにも、思い出せない……ううっ、頭が……。"
+          }
+        },
+        {
+          "rowIndex": 71,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt7_Ama",
+            "Arg3": "layer_ビビ神a_中",
+            "Arg6": 0.3,
+            "Text": "まあ……！　そんなに頭が痒いだなんて、お気の毒な。\nそれにしても、記憶喪失ですか。……分かりました。\n不肖、この私があなたを正しい記憶の元へ導いて差し上げましょう。",
+            "Voice": "ch_30005/Main/1100/1100_30005_004.wav"
+          }
+        },
+        {
+          "rowIndex": 72,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "ありがとうございます、そんなに小さいのに立派ですね。\n……ところで、キミは一体？"
+          }
+        },
+        {
+          "rowIndex": 73,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt2_Ang",
+            "Arg3": "layer_ビビ神a_中",
+            "Arg6": 0.3,
+            "Text": "微妙に引っかかる物言いですが、まあいいでしょう。\n私は寛大ですから。\nごほん、改めまして、よろしくお願いします。",
+            "Voice": "ch_30005/Main/1100/1100_30005_005.wav"
+          }
+        },
+        {
+          "rowIndex": 74,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt1_Nor",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg6": 0.3,
+            "Text": "私は創世記に記された、獣神の一柱・ヴィヴィヴァーチェ。\nそして……。",
+            "Voice": "ch_30005/Main/1100/1100_30005_006.wav"
+          }
+        },
+        {
+          "rowIndex": 75,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "CharacterOff",
+            "Arg6": 0.2
+          }
+        },
+        {
+          "rowIndex": 76,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.5
+          }
+        },
+        {
+          "rowIndex": 77,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "BgEvent",
+            "Arg1": "涎まみれの神々しいビビ神を見上げる主人公",
+            "Arg3": "layer_挿絵",
+            "Arg6": 0.8
+          }
+        },
+        {
+          "rowIndex": 78,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 79,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Param",
+            "Arg1": " ch30001=\"獣神ヴィヴィヴァーチェ\""
+          }
+        },
+        {
+          "rowIndex": 80,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt4_Enj",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg6": 0.3,
+            "Text": "ようこそ、絶海の孤島――、\n――モンスター娘の住まう神秘の島、ゲシュペンス島へ。",
+            "Voice": "ch_30005/Main/1100/1100_30005_007.wav"
+          }
+        },
+        {
+          "rowIndex": 81,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Text": "決め顔で言ったビビ神の身体は、涎にまみれていた……。"
+          }
+        },
+        {
+          "rowIndex": 82,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "StopSound",
+            "Arg1": "Bgm,Se,Ambience",
+            "Arg6": 2
+          }
+        },
+        {
+          "rowIndex": 83,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "FadeOut",
+            "Arg1": "#000000",
+            "Arg6": 2
+          }
+        },
+        {
+          "rowIndex": 84,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "BgEventOff",
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 85,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "CharacterOff"
+          }
+        },
+        {
+          "rowIndex": 86,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "StopBgm",
+            "Arg6": 0.6
+          }
+        },
+        {
+          "rowIndex": 87,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 1
+          }
+        },
+        {
+          "rowIndex": 88,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Bg",
+            "Arg1": "背景_砂浜",
+            "Arg3": "layer_背景",
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 89,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "FadeIn",
+            "Arg1": "#000000",
+            "Arg6": 2
+          }
+        },
+        {
+          "rowIndex": 90,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.5
+          }
+        },
+        {
+          "rowIndex": 91,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Bgm",
+            "Arg1": "BGM_1004",
+            "Arg4": -1,
+            "WaitType": 0
+          }
+        },
+        {
+          "rowIndex": 92,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt1_Nor",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg6": 0.3,
+            "Text": "では、少年……、\n……いつまでも少年では呼びづらいですね。",
+            "Voice": "ch_30005/Main/1100/1100_30005_008.wav"
+          }
+        },
+        {
+          "rowIndex": 93,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt1_Nor",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg6": 0.3,
+            "Text": "ふむ、ここは、かの“創世記”にちなんで、\nご主人さまと呼びましょう。\nいいですか？　あなたは今からご主人さまです。",
+            "Voice": "ch_30005/Main/1100/1100_30005_009.wav"
+          }
+        },
+        {
+          "rowIndex": 94,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "創世記……？　ご主人さま……？　それは一体……？"
+          }
+        },
+        {
+          "rowIndex": 95,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt1_Nor",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg6": 0.3,
+            "Text": "創世記とはこの島に人やモンスターやモンスター娘が\n誕生してから、今に至るまでを綴った伝承のことです。",
+            "Voice": "ch_30005/Main/1100/1100_30005_010.wav"
+          }
+        },
+        {
+          "rowIndex": 96,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt1_Nor",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg6": 0.3,
+            "Text": "そして、最初の人間はモンスター娘たちから、\n『ご主人さま』と呼ばれていました。",
+            "Voice": "ch_30005/Main/1100/1100_30005_011.wav"
+          }
+        },
+        {
+          "rowIndex": 97,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "そんな由緒ある呼び方を……。"
+          }
+        },
+        {
+          "rowIndex": 98,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "それで、そのモンスター娘というのは……？\nそれに、獣神というのは何なんですか、ヴァイオリニストさん。"
+          }
+        },
+        {
+          "rowIndex": 99,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt7_Ama",
+            "Arg3": "layer_ビビ神b_中",
+            "PageCtrl": "Next"
+          }
+        },
+        {
+          "rowIndex": 100,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Sprite",
+            "Arg1": "spr_ため息(左へ)",
+            "Arg2": "漫符_ため息左",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg4": -10000,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 101,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_ため息(左へ)",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=0"
+          }
+        },
+        {
+          "rowIndex": 102,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_ため息(左へ)",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=9980 y=-340"
+          }
+        },
+        {
+          "rowIndex": 103,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_ため息(左へ)",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=25 y=-20"
+          }
+        },
+        {
+          "rowIndex": 104,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.02
+          }
+        },
+        {
+          "rowIndex": 105,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_ため息(左へ)",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0.3 alpha=1",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 106,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_ため息(左へ)",
+            "Arg2": "ScaleFrom",
+            "Arg3": "time=0.6 x=0.2 y=0.2",
+            "Arg4": "easeOutExpo",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 107,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_ため息(左へ)",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0.6 x=20 y=15",
+            "Arg4": "easeOutExpo"
+          }
+        },
+        {
+          "rowIndex": 108,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "SpriteOff",
+            "Arg1": "spr_ため息(左へ)",
+            "Arg6": 0.5
+          }
+        },
+        {
+          "rowIndex": 109,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt7_Ama",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg6": 0.3,
+            "Text": "……どうやら、記憶が混濁して長い名前を\n覚えられないようですね、可哀想に。\n仕方ありません、私のことは、今後、ビビ神と呼んで下さい。",
+            "Voice": "ch_30005/Main/1100/1100_30005_012.wav"
+          }
+        },
+        {
+          "rowIndex": 110,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "大丈夫です、ヴィシソワーズさんのこと、ちゃんと呼べます！"
+          }
+        },
+        {
+          "rowIndex": 111,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt5_Sca",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 112,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Param",
+            "Arg1": " ch30001=\"ビビ神\""
+          }
+        },
+        {
+          "rowIndex": 113,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt1_Nor",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg6": 0.3,
+            "Text": "さて、モンスター娘の話ですが。",
+            "Voice": "ch_30005/Main/1100/1100_30005_013.wav"
+          }
+        },
+        {
+          "rowIndex": 114,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "スルーですか！？"
+          }
+        },
+        {
+          "rowIndex": 115,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt1_Nor",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg6": 0.3,
+            "Text": "モンスター娘とは、この島にだけ生息する特殊なモンスターです。",
+            "Voice": "ch_30005/Main/1100/1100_30005_014.wav"
+          }
+        },
+        {
+          "rowIndex": 116,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt3_Gla",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg6": 0.3,
+            "Text": "姿形は人間の女の子に極めて近く、\n一説には神々の使いとも言われます。\nまあ、その神というのが私こと、獣神なのですが。",
+            "Voice": "ch_30005/Main/1100/1100_30005_015.wav"
+          }
+        },
+        {
+          "rowIndex": 117,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "凄いですね！\n僕、神様、生まれて初めて見ました！！"
+          }
+        },
+        {
+          "rowIndex": 118,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt1_Nor",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg6": 0.3,
+            "Text": "では、あの樹木になっている果実は？",
+            "Voice": "ch_30005/Main/1100/1100_30005_016.wav"
+          }
+        },
+        {
+          "rowIndex": 119,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "生まれて初めて見ました。"
+          }
+        },
+        {
+          "rowIndex": 120,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt1_Nor",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg6": 0.3,
+            "Text": "では、あそこをうろついている野良猫は？",
+            "Voice": "ch_30005/Main/1100/1100_30005_017.wav"
+          }
+        },
+        {
+          "rowIndex": 121,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "生まれて初めて見ました。"
+          }
+        },
+        {
+          "rowIndex": 122,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt7_Ama",
+            "Arg3": "layer_ビビ神b_中",
+            "PageCtrl": "Next"
+          }
+        },
+        {
+          "rowIndex": 123,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Sprite",
+            "Arg1": "spr_ため息(左へ)",
+            "Arg2": "漫符_ため息左",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg4": -10000,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 124,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_ため息(左へ)",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=0"
+          }
+        },
+        {
+          "rowIndex": 125,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_ため息(左へ)",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=9980 y=-340"
+          }
+        },
+        {
+          "rowIndex": 126,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_ため息(左へ)",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=25 y=-20"
+          }
+        },
+        {
+          "rowIndex": 127,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.02
+          }
+        },
+        {
+          "rowIndex": 128,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_ため息(左へ)",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0.3 alpha=1",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 129,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_ため息(左へ)",
+            "Arg2": "ScaleFrom",
+            "Arg3": "time=0.6 x=0.2 y=0.2",
+            "Arg4": "easeOutExpo",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 130,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_ため息(左へ)",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0.6 x=20 y=15",
+            "Arg4": "easeOutExpo"
+          }
+        },
+        {
+          "rowIndex": 131,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "SpriteOff",
+            "Arg1": "spr_ため息(左へ)",
+            "Arg6": 0.5
+          }
+        },
+        {
+          "rowIndex": 132,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt7_Ama",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg6": 0.3,
+            "Text": "まあ、あなたは記憶喪失ですからね。\n見る物全てが新鮮に見えることでしょう。",
+            "Voice": "ch_30005/Main/1100/1100_30005_018.wav"
+          }
+        },
+        {
+          "rowIndex": 133,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Text": "それから、ビビ神は主人公に様々なことを教えた。\nこの島の詳しい話、モンスター娘の様々な逸話、\nこの世に生きる喜び、そして、悲しみのことを。"
+          }
+        },
+        {
+          "rowIndex": 134,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "FadeOut",
+            "Arg1": "#000000",
+            "Arg6": 0.5
+          }
+        },
+        {
+          "rowIndex": 135,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "CharacterOff",
+            "Arg6": 0.2
+          }
+        },
+        {
+          "rowIndex": 136,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.5
+          }
+        },
+        {
+          "rowIndex": 137,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Bg",
+            "Arg1": "背景_砂浜",
+            "Arg3": "layer_背景",
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 138,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "FadeIn",
+            "Arg1": "#000000",
+            "Arg6": 0.5
+          }
+        },
+        {
+          "rowIndex": 139,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 140,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "StopBgm",
+            "Arg1": "Bgm,Se,Ambience",
+            "Arg6": 2
+          }
+        },
+        {
+          "rowIndex": 141,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "……聞けば聞くほど、\nこの島で生きていける気がしないんですが、\nモンスター娘さんたちと仲良くできるんでしょうか？"
+          }
+        },
+        {
+          "rowIndex": 142,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt3_Gla",
+            "Arg3": "layer_ビビ神b_中",
+            "PageCtrl": "Next"
+          }
+        },
+        {
+          "rowIndex": 143,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Sprite",
+            "Arg1": "spr_喜び_1",
+            "Arg2": "漫符_喜び①",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg4": -10000,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 144,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Sprite",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "漫符_喜び②",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg4": -10000,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 145,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Sprite",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "漫符_喜び①",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg4": -10000,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 146,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_1",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 147,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 148,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 149,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_1",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=9990 y=-383",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 150,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=10000 y=-403",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 151,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=9980 y=-383",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 152,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_1",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=0 y=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 153,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=0 y=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 154,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=0 y=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 155,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "RotateTo",
+            "Arg3": "time=0 z=20",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 156,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "ScaleTo",
+            "Arg3": "time=0 x=0.7 y=0.7",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 157,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "RotateTo",
+            "Arg3": "time=0 z=-30",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 158,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "ScaleTo",
+            "Arg3": "time=0 x=0.82 y=0.82"
+          }
+        },
+        {
+          "rowIndex": 159,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.01
+          }
+        },
+        {
+          "rowIndex": 160,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_1",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=1"
+          }
+        },
+        {
+          "rowIndex": 161,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.1
+          }
+        },
+        {
+          "rowIndex": 162,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "SpriteOff",
+            "Arg1": "spr_喜び_1",
+            "Arg6": 0.15,
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 163,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=1"
+          }
+        },
+        {
+          "rowIndex": 164,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.1
+          }
+        },
+        {
+          "rowIndex": 165,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "SpriteOff",
+            "Arg1": "spr_喜び_2",
+            "Arg6": 0.15,
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 166,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.1
+          }
+        },
+        {
+          "rowIndex": 167,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=1"
+          }
+        },
+        {
+          "rowIndex": 168,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.1
+          }
+        },
+        {
+          "rowIndex": 169,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "SpriteOff",
+            "Arg1": "spr_喜び_3",
+            "Arg6": 0.2
+          }
+        },
+        {
+          "rowIndex": 170,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt3_Gla",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg6": 0.3,
+            "Text": "心配ありませんよ。個性的な娘が勢ぞろいですが、\nきっとご主人さまなら手懐けられる……、\nもとい親密でズブズブな関係になれるでしょう。",
+            "Voice": "ch_30005/Main/1100/1100_30005_019.wav"
+          }
+        },
+        {
+          "rowIndex": 171,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "親密の意味とは……？"
+          }
+        },
+        {
+          "rowIndex": 172,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "CharacterOff",
+            "Arg6": 0.2
+          }
+        },
+        {
+          "rowIndex": 173,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 174,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Se",
+            "Arg1": "SE動作_草を分ける",
+            "Arg3": 1,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 175,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Se",
+            "Arg1": "SE動作_草を分ける",
+            "Arg3": 0.8,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 176,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 177,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Param",
+            "Arg1": " ch10011=\"？？？\""
+          }
+        },
+        {
+          "rowIndex": 178,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Bgm",
+            "Arg1": "BGM_1016"
+          }
+        },
+        {
+          "rowIndex": 179,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ポデル",
+            "Arg2": "Emt3_Gla",
+            "Arg3": "layer_中",
+            "PageCtrl": "Next"
+          }
+        },
+        {
+          "rowIndex": 180,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Sprite",
+            "Arg1": "spr_喜び_1",
+            "Arg2": "漫符_喜び①",
+            "Arg3": "layer_中",
+            "Arg4": -10000,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 181,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Sprite",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "漫符_喜び②",
+            "Arg3": "layer_中",
+            "Arg4": -10000,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 182,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Sprite",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "漫符_喜び①",
+            "Arg3": "layer_中",
+            "Arg4": -10000,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 183,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_1",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 184,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 185,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 186,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_1",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=9990 y=-383",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 187,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=10000 y=-403",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 188,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=9980 y=-383",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 189,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_1",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=0 y=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 190,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=0 y=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 191,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=0 y=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 192,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "RotateTo",
+            "Arg3": "time=0 z=20",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 193,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "ScaleTo",
+            "Arg3": "time=0 x=0.7 y=0.7",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 194,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "RotateTo",
+            "Arg3": "time=0 z=-30",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 195,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "ScaleTo",
+            "Arg3": "time=0 x=0.82 y=0.82"
+          }
+        },
+        {
+          "rowIndex": 196,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.01
+          }
+        },
+        {
+          "rowIndex": 197,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_1",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=1"
+          }
+        },
+        {
+          "rowIndex": 198,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.1
+          }
+        },
+        {
+          "rowIndex": 199,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "SpriteOff",
+            "Arg1": "spr_喜び_1",
+            "Arg6": 0.15,
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 200,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=1"
+          }
+        },
+        {
+          "rowIndex": 201,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.1
+          }
+        },
+        {
+          "rowIndex": 202,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "SpriteOff",
+            "Arg1": "spr_喜び_2",
+            "Arg6": 0.15,
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 203,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.1
+          }
+        },
+        {
+          "rowIndex": 204,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=1"
+          }
+        },
+        {
+          "rowIndex": 205,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.1
+          }
+        },
+        {
+          "rowIndex": 206,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "SpriteOff",
+            "Arg1": "spr_喜び_3",
+            "Arg6": 0.2
+          }
+        },
+        {
+          "rowIndex": 207,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ポデル",
+            "Arg2": "Emt3_Gla",
+            "Arg3": "layer_中",
+            "Arg6": 0.3,
+            "Text": "ひゃっはー！　見つけたぞ、密猟者！\n捕まえてあんな事やこんな事をしてやるぜ！",
+            "Voice": "ch_10011/Main/1100/1100_10011_020.wav"
+          }
+        },
+        {
+          "rowIndex": 208,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "ひぃぃぃっ！\nいきなり命の危機っぽい状況なんですけど！？"
+          }
+        },
+        {
+          "rowIndex": 209,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "CharacterOff",
+            "Arg6": 0.2
+          }
+        },
+        {
+          "rowIndex": 210,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 211,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt1_Nor",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg6": 0.3,
+            "Text": "ふむ、まさかモンスター娘とのファーストコンタクトが\nオーク娘とは……引きが強いというか、お気の毒というか。\nなんにせよ、ご主人様、親睦を深める絶好の機会ですよ。",
+            "Voice": "ch_30005/Main/1100/1100_30005_021.wav"
+          }
+        },
+        {
+          "rowIndex": 212,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "CharacterOff",
+            "Arg6": 0.2
+          }
+        },
+        {
+          "rowIndex": 213,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 214,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ポデル",
+            "Arg2": "Emt9_Est",
+            "Arg3": "layer_中",
+            "Arg6": 0.3,
+            "Text": "げへへへ……やっとこの機会が巡ってきたぜ。\n夢にまで見た騎士とのイヤ～ンな展開だぁ……じゅるり。",
+            "Voice": "ch_10011/Main/1100/1100_10011_022.wav"
+          }
+        },
+        {
+          "rowIndex": 215,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "言ってることが支離滅裂すぎて怖い！\n交流するなんて、絶対無理ですよ！？"
+          }
+        },
+        {
+          "rowIndex": 216,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "CharacterOff",
+            "Arg6": 0.2
+          }
+        },
+        {
+          "rowIndex": 217,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 218,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Se",
+            "Arg1": "SE動作_草を分ける",
+            "Arg3": 1,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 219,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Se",
+            "Arg1": "SE動作_草を分ける",
+            "Arg3": 0.8,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 220,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 221,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Param",
+            "Arg1": " ch10022=\"？？？\""
+          }
+        },
+        {
+          "rowIndex": 222,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "スズ",
+            "Arg2": "Emt2_Ang",
+            "Arg3": "layer_中",
+            "Arg6": 0.3,
+            "Text": "ちょっと待ったーっ！　ステイ、ステイ！",
+            "Voice": "ch_10022/Main/1100/1100_10022_023.wav"
+          }
+        },
+        {
+          "rowIndex": 224,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "CharacterOff",
+            "Arg6": 0.2
+          }
+        },
+        {
+          "rowIndex": 225,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 226,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "少しはマトモそうな人がきたっ！？"
+          }
+        },
+        {
+          "rowIndex": 227,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Param",
+            "Arg1": " ch10011=\"オーク娘\""
+          }
+        },
+        {
+          "rowIndex": 228,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "スズ",
+            "Arg2": "Emt2_Ang",
+            "Arg3": "layer_左中",
+            "Arg5": 10,
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 229,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ポデル",
+            "Arg2": "Emt6_Sur",
+            "Arg3": "layer_右中",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 230,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "スズ",
+            "Arg2": "Emt5_Sca",
+            "Arg3": "layer_左中",
+            "PageCtrl": "Next"
+          }
+        },
+        {
+          "rowIndex": 231,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Sprite",
+            "Arg1": "spr_焦り_1",
+            "Arg2": "漫符_焦り",
+            "Arg3": "layer_左中",
+            "Arg4": -10000,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 232,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Sprite",
+            "Arg1": "spr_焦り_2",
+            "Arg2": "漫符_焦り",
+            "Arg3": "layer_左中",
+            "Arg4": -10000,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 233,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Sprite",
+            "Arg1": "spr_焦り_3",
+            "Arg2": "漫符_焦り",
+            "Arg3": "layer_左中",
+            "Arg4": -10000,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 234,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_1",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 235,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_2",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 236,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_3",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=0"
+          }
+        },
+        {
+          "rowIndex": 237,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_1",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=9950 y=-390",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 238,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_2",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=9950 y=-390",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 239,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_3",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=9950 y=-390"
+          }
+        },
+        {
+          "rowIndex": 240,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_1",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=0 y=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 241,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_2",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=0 y=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 242,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_3",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=0 y=0"
+          }
+        },
+        {
+          "rowIndex": 243,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_3",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=1",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 244,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_3",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0.13 x=0 y=-45"
+          }
+        },
+        {
+          "rowIndex": 245,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "SpriteOff",
+            "Arg1": "spr_焦り_3",
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 246,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_2",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=1",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 247,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_2",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0.13 x=0 y=-45"
+          }
+        },
+        {
+          "rowIndex": 248,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "SpriteOff",
+            "Arg1": "spr_焦り_2",
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 249,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_1",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=1",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 250,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_1",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0.13 x=0 y=-45"
+          }
+        },
+        {
+          "rowIndex": 251,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "SpriteOff",
+            "Arg1": "spr_焦り_1",
+            "Arg6": 0.1
+          }
+        },
+        {
+          "rowIndex": 252,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "スズ",
+            "Arg2": "Emt5_Sca",
+            "Arg3": "layer_左中",
+            "Arg5": 10,
+            "Arg6": 0.3,
+            "Text": "いたいけな少年に乱暴する気！？\nこんな可愛い子が密猟者のはずないでしょう？\n両眼でよく見て！　心の目でもガン見して！",
+            "Voice": "ch_10022/Main/1100/1100_10022_024.wav"
+          }
+        },
+        {
+          "rowIndex": 253,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "あのー、庇っていただいているのになんですが、\n「可愛い」っていうのは、ちょっと……。"
+          }
+        },
+        {
+          "rowIndex": 254,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ポデル",
+            "Arg2": "Emt6_Sur",
+            "Arg3": "layer_右中",
+            "Arg6": 0.3,
+            "Text": "あー……うん、おぉ……んんっ！？",
+            "PageCtrl": "Br",
+            "Voice": "ch_10011/Main/1100/1100_10011_025.wav"
+          }
+        },
+        {
+          "rowIndex": 255,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ポデル",
+            "Arg2": "Emt4_Enj",
+            "Arg3": "layer_右中",
+            "Arg6": 0.3,
+            "Text": "可愛い……！\nこんな可愛い少年が密猟者のわけないか！"
+          }
+        },
+        {
+          "rowIndex": 256,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "CharacterOff",
+            "Arg6": 0.2
+          }
+        },
+        {
+          "rowIndex": 257,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 258,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt7_Ama",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg6": 0.3,
+            "Text": "納得しましたね。\n彼女もオーク娘と同じ、モンスター娘ですので、\nご主人様に危害を加えたりはしませんよ。",
+            "Voice": "ch_30005/Main/1100/1100_30005_026.wav"
+          }
+        },
+        {
+          "rowIndex": 259,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "CharacterOff",
+            "Arg6": 0.2
+          }
+        },
+        {
+          "rowIndex": 260,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 261,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "スズ",
+            "Arg2": "Emt1_Nor",
+            "Arg3": "layer_中",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 262,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "はぁ、そうですか……。\nもう信じていただけるなら何でもいいです。"
+          }
+        },
+        {
+          "rowIndex": 263,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Param",
+            "Arg1": " ch10022=\"ケンタウロス娘？\""
+          }
+        },
+        {
+          "rowIndex": 264,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "スズ",
+            "Arg2": "Emt3_Gla",
+            "Arg3": "layer_中",
+            "PageCtrl": "Next"
+          }
+        },
+        {
+          "rowIndex": 265,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Sprite",
+            "Arg1": "spr_喜び_1",
+            "Arg2": "漫符_喜び①",
+            "Arg3": "layer_中",
+            "Arg4": -10000,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 266,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Sprite",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "漫符_喜び②",
+            "Arg3": "layer_中",
+            "Arg4": -10000,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 267,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Sprite",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "漫符_喜び①",
+            "Arg3": "layer_中",
+            "Arg4": -10000,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 268,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_1",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 269,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 270,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 271,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_1",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=9990 y=-383",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 272,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=10000 y=-403",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 273,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=9980 y=-383",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 274,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_1",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=0 y=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 275,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=0 y=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 276,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=0 y=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 277,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "RotateTo",
+            "Arg3": "time=0 z=20",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 278,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "ScaleTo",
+            "Arg3": "time=0 x=0.7 y=0.7",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 279,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "RotateTo",
+            "Arg3": "time=0 z=-30",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 280,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "ScaleTo",
+            "Arg3": "time=0 x=0.82 y=0.82"
+          }
+        },
+        {
+          "rowIndex": 281,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.01
+          }
+        },
+        {
+          "rowIndex": 282,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_1",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=1"
+          }
+        },
+        {
+          "rowIndex": 283,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.1
+          }
+        },
+        {
+          "rowIndex": 284,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "SpriteOff",
+            "Arg1": "spr_喜び_1",
+            "Arg6": 0.15,
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 285,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_2",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=1"
+          }
+        },
+        {
+          "rowIndex": 286,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.1
+          }
+        },
+        {
+          "rowIndex": 287,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "SpriteOff",
+            "Arg1": "spr_喜び_2",
+            "Arg6": 0.15,
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 288,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.1
+          }
+        },
+        {
+          "rowIndex": 289,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_喜び_3",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=1"
+          }
+        },
+        {
+          "rowIndex": 290,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.1
+          }
+        },
+        {
+          "rowIndex": 291,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "SpriteOff",
+            "Arg1": "spr_喜び_3",
+            "Arg6": 0.2
+          }
+        },
+        {
+          "rowIndex": 292,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "スズ",
+            "Arg2": "Emt3_Gla",
+            "Arg3": "layer_中",
+            "Arg6": 0.3,
+            "Text": "（それにしても本当に可愛い子ね……。\n　なんだか弟を思い出しちゃうかも）",
+            "Voice": "ch_10022/Main/1100/1100_10022_027.wav"
+          }
+        },
+        {
+          "rowIndex": 293,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "ええと、僕の顔に何かついていますか？"
+          }
+        },
+        {
+          "rowIndex": 294,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "スズ",
+            "Arg2": "Emt6_Sur",
+            "Arg3": "layer_中",
+            "PageCtrl": "Next"
+          }
+        },
+        {
+          "rowIndex": 295,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Sprite",
+            "Arg1": "spr_焦り_1",
+            "Arg2": "漫符_焦り",
+            "Arg3": "layer_中",
+            "Arg4": -10000,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 296,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Sprite",
+            "Arg1": "spr_焦り_2",
+            "Arg2": "漫符_焦り",
+            "Arg3": "layer_中",
+            "Arg4": -10000,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 297,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Sprite",
+            "Arg1": "spr_焦り_3",
+            "Arg2": "漫符_焦り",
+            "Arg3": "layer_中",
+            "Arg4": -10000,
+            "Arg5": 0,
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 298,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_1",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 299,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_2",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 300,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_3",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=0"
+          }
+        },
+        {
+          "rowIndex": 301,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_1",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=9950 y=-390",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 302,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_2",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=9950 y=-390",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 303,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_3",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=9950 y=-390"
+          }
+        },
+        {
+          "rowIndex": 304,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_1",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=0 y=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 305,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_2",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=0 y=0",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 306,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_3",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0 x=0 y=0"
+          }
+        },
+        {
+          "rowIndex": 307,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_3",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=1",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 308,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_3",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0.13 x=0 y=-45"
+          }
+        },
+        {
+          "rowIndex": 309,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "SpriteOff",
+            "Arg1": "spr_焦り_3",
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 310,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_2",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=1",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 311,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_2",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0.13 x=0 y=-45"
+          }
+        },
+        {
+          "rowIndex": 312,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "SpriteOff",
+            "Arg1": "spr_焦り_2",
+            "Arg6": 0
+          }
+        },
+        {
+          "rowIndex": 313,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_1",
+            "Arg2": "ColorTo",
+            "Arg3": "time=0 alpha=1",
+            "WaitType": "Add"
+          }
+        },
+        {
+          "rowIndex": 314,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Tween",
+            "Arg1": "spr_焦り_1",
+            "Arg2": "MoveBy",
+            "Arg3": "time=0.13 x=0 y=-45"
+          }
+        },
+        {
+          "rowIndex": 315,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "SpriteOff",
+            "Arg1": "spr_焦り_1",
+            "Arg6": 0.1
+          }
+        },
+        {
+          "rowIndex": 316,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "スズ",
+            "Arg2": "Emt6_Sur",
+            "Arg3": "layer_中",
+            "Arg6": 0.3,
+            "Text": "あっ、ううん！　",
+            "PageCtrl": "Next",
+            "Voice": "ch_10022/Main/1100/1100_10022_028.wav"
+          }
+        },
+        {
+          "rowIndex": 317,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "スズ",
+            "Arg2": "Emt1_Nor",
+            "Arg3": "layer_中",
+            "Arg6": 0.3,
+            "Text": "なんでもないの。\nそれと、驚かせてごめんね。実は私たち、島に上陸した密猟者を\n探していて……。この辺りで怪しい人間を見なかった？"
+          }
+        },
+        {
+          "rowIndex": 318,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "いえ、僕は……先ほどこの島で目覚めたばかりなんです。\nなので特に心当たりは……。"
+          }
+        },
+        {
+          "rowIndex": 319,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "CharacterOff",
+            "Arg6": 0.2
+          }
+        },
+        {
+          "rowIndex": 320,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 321,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "StopBgm",
+            "Arg1": "Bgm,Se,Ambience",
+            "Arg6": 2
+          }
+        },
+        {
+          "rowIndex": 322,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ビビ神",
+            "Arg2": "Emt1_Nor",
+            "Arg3": "layer_ビビ神b_中",
+            "Arg6": 0.3,
+            "Text": "ああ、それなら、向こうからやる気満々で向かってきている\n人間たちが密猟者じゃありませんか？",
+            "Voice": "ch_30005/Main/1100/1100_30005_029.wav"
+          }
+        },
+        {
+          "rowIndex": 323,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "CharacterOff",
+            "Arg6": 0.2
+          }
+        },
+        {
+          "rowIndex": 324,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 325,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Bgm",
+            "Arg1": "BGM_1005"
+          }
+        },
+        {
+          "rowIndex": 326,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ポデル",
+            "Arg2": "Emt6_Sur",
+            "Arg3": "layer_右中",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 327,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "スズ",
+            "Arg2": "Emt6_Sur",
+            "Arg3": "layer_左中",
+            "Arg5": 10,
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 328,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ポデル",
+            "Arg2": "Emt4_Enj",
+            "Arg3": "layer_右中",
+            "Arg6": 0.3,
+            "Text": "うぉっ！　まじかよ！？\nこいつぁ入れ食いじゃねーか！\nまとめてかかってきなっ！",
+            "Voice": "ch_10011/Main/1100/1100_10011_030.wav"
+          }
+        },
+        {
+          "rowIndex": 329,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "スズ",
+            "Arg2": "Emt2_Ang",
+            "Arg3": "layer_左中",
+            "Arg5": 10,
+            "Arg6": 0.3,
+            "Text": "危ないから君は下がっていて！",
+            "Voice": "ch_10022/Main/1100/1100_10022_031.wav"
+          }
+        },
+        {
+          "rowIndex": 330,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "主人公",
+            "Text": "いえ、僕も一緒に戦います。\nただ守られるだけなのは嫌なんです！"
+          }
+        },
+        {
+          "rowIndex": 331,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Param",
+            "Arg1": " ch10022=\"モンスター娘の２人\""
+          }
+        },
+        {
+          "rowIndex": 332,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "スズ",
+            "Arg2": "Emt9_Est",
+            "Arg3": "layer_左中",
+            "Arg5": 10,
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 333,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "ポデル",
+            "Arg2": "Emt9_Est",
+            "Arg3": "layer_右中",
+            "Arg6": 0.3
+          }
+        },
+        {
+          "rowIndex": 334,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Se",
+            "Arg1": "VO_1100_10011_033",
+            "Arg3": 1
+          }
+        },
+        {
+          "rowIndex": 335,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "",
+            "Arg1": "スズ",
+            "Arg5": 10,
+            "Text": "（やだ、この子かっこいい……！）",
+            "Voice": "ch_10022/Main/1100/1100_10022_032.wav"
+          }
+        },
+        {
+          "rowIndex": 336,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "StopSound",
+            "Arg1": "All",
+            "Arg6": 1.5
+          }
+        },
+        {
+          "rowIndex": 337,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "FadeOut",
+            "Arg1": "#000000",
+            "Arg6": 1.5
+          }
+        },
+        {
+          "rowIndex": 338,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "Wait",
+            "Arg6": 1.5
+          }
+        },
+        {
+          "rowIndex": 339,
+          "isEmpty": 0,
+          "commandParams": {
+            "Command": "LayerReset",
+            "Arg1": "レイヤー_マスク全画面"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+.abilites-text {
+  li {
+    box-sizing: border-box;
+    padding: 3px 0;
+    border: 2px solid var(--color-border);
+  }
+
+  li:nth-child(n+2) {
+    margin-top: 6px;
+  }
+
+  @media (width <=860px) {
+    li:nth-child(n+2) {
+      margin-top: 4px;
+    }
+  }
+}
+
+.text {
+  margin: 0 auto;
+  width: 98%;
+  min-height: clamp(40px, 4.2vw, 48px);
+  line-height: 1.6;
+
+  text-align: center;
+  font-size: clamp(1.25rem, 1.3vw, 1.5rem);
+  letter-spacing: 1px;
+  white-space: pre-wrap;
+}
+
+.text1 {
+  display: flex;
+  justify-content: center;
+
+  p {
+    margin: 0 15px;
+  }
+}

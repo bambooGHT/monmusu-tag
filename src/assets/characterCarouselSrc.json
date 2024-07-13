@@ -1,0 +1,66 @@
+{
+  "left": "https://monmusu-td.jp/_nuxt/img/character_arrow_left.58fd10d.png",
+  "right": "https://monmusu-td.jp/_nuxt/img/character_arrow_right.0923642.png",
+  "carouselList": [
+    {
+      "character": "https://monmusu-td.jp/_nuxt/img/character_1.53b8dbb.png",
+      "character1": "https://monmusu-td.jp/_nuxt/img/character_1.99d6e3d.png",
+      "thumbnail": "https://monmusu-td.jp/_nuxt/img/character_1_thumbnail.be37bb1.png",
+      "thumbnail_off": "https://monmusu-td.jp/_nuxt/img/character_1_thumbnail_off.b8f92d1.png"
+    },
+    {
+      "character": "https://monmusu-td.jp/_nuxt/img/character_2.7c08f23.png",
+      "character1": "https://monmusu-td.jp/_nuxt/img/character_2.d9881c4.png",
+      "thumbnail": "https://monmusu-td.jp/_nuxt/img/character_2_thumbnail.9bca56f.png",
+      "thumbnail_off": "https://monmusu-td.jp/_nuxt/img/character_2_thumbnail_off.2067201.png"
+    },
+    {
+      "character": "https://monmusu-td.jp/_nuxt/img/character_3.577de62.png",
+      "character1": "https://monmusu-td.jp/_nuxt/img/character_3.bcb958a.png",
+      "thumbnail": "https://monmusu-td.jp/_nuxt/img/character_3_thumbnail.65355e0.png",
+      "thumbnail_off": "https://monmusu-td.jp/_nuxt/img/character_3_thumbnail_off.3f5c552.png"
+    },
+    {
+      "character": "https://monmusu-td.jp/_nuxt/img/character_4.b763f62.png",
+      "character1": "https://monmusu-td.jp/_nuxt/img/character_4.c560905.png",
+      "thumbnail": "https://monmusu-td.jp/_nuxt/img/character_4_thumbnail.ecba885.png",
+      "thumbnail_off": "https://monmusu-td.jp/_nuxt/img/character_4_thumbnail_off.4da356a.png"
+    },
+    {
+      "character": "https://monmusu-td.jp/_nuxt/img/character_5.d03a809.png",
+      "character1": "https://monmusu-td.jp/_nuxt/img/character_5.e8efbd0.png",
+      "thumbnail": "https://monmusu-td.jp/_nuxt/img/character_5_thumbnail.87eea72.png",
+      "thumbnail_off": "https://monmusu-td.jp/_nuxt/img/character_5_thumbnail_off.36a083a.png"
+    },
+    {
+      "character": "https://monmusu-td.jp/_nuxt/img/character_6.81514af.png",
+      "character1": "https://monmusu-td.jp/_nuxt/img/character_6.5367aa4.png",
+      "thumbnail": "https://monmusu-td.jp/_nuxt/img/character_6_thumbnail.f7eca78.png",
+      "thumbnail_off": "https://monmusu-td.jp/_nuxt/img/character_6_thumbnail_off.48a07a9.png"
+    },
+    {
+      "character": "https://monmusu-td.jp/_nuxt/img/character_7.3deaebc.png",
+      "character1": "https://monmusu-td.jp/_nuxt/img/character_7.a337b29.png",
+      "thumbnail": "https://monmusu-td.jp/_nuxt/img/character_7_thumbnail.c83a2d7.png",
+      "thumbnail_off": "https://monmusu-td.jp/_nuxt/img/character_7_thumbnail_off.7212dee.png"
+    },
+    {
+      "character": "https://monmusu-td.jp/_nuxt/img/character_8.59764ac.png",
+      "character1": "https://monmusu-td.jp/_nuxt/img/character_8.132df60.png",
+      "thumbnail": "https://monmusu-td.jp/_nuxt/img/character_8_thumbnail.130636a.png",
+      "thumbnail_off": "https://monmusu-td.jp/_nuxt/img/character_8_thumbnail_off.12328f4.png"
+    },
+    {
+      "character": "https://monmusu-td.jp/_nuxt/img/character_9.5adbf99.png",
+      "character1": "https://monmusu-td.jp/_nuxt/img/character_9.71ee8b8.png",
+      "thumbnail": "https://monmusu-td.jp/_nuxt/img/character_9_thumbnail.d4bc864.png",
+      "thumbnail_off": "https://monmusu-td.jp/_nuxt/img/character_9_thumbnail_off.5f6a9bb.png"
+    },
+    {
+      "character": "https://monmusu-td.jp/_nuxt/img/character_10.5643342.png",
+      "character1": "https://monmusu-td.jp/_nuxt/img/character_10.3c34581.png",
+      "thumbnail": "https://monmusu-td.jp/_nuxt/img/character_10_thumbnail.a875755.png",
+      "thumbnail_off": "https://monmusu-td.jp/_nuxt/img/character_10_thumbnail_off.d894df5.png"
+    }
+  ]
+}

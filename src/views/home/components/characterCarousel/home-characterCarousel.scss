@@ -1,0 +1,76 @@
+#characterCarousel-list {
+  padding-bottom: 54.95%;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}
+
+#characterCarousel-navs {
+  position: relative;
+  z-index: 10;
+
+  li {
+    position: relative;
+    margin: 0 5px;
+    width: clamp(60px, 8vw, 72px);
+    height: 80px;
+
+    img {
+      display: block;
+      width: 100%;
+
+      &:nth-child(2) {
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+    }
+  }
+
+  li.current {
+    background-color: transparent;
+
+    .nav-index img:nth-child(2) {
+      z-index: 10;
+      opacity: 1;
+    }
+  }
+}
+
+[class*="cutover"] {
+  opacity: 0;
+  transition: .3s;
+
+  &:active {
+    transform: scale(90%);
+  }
+}
+
+@media (width >=740px) {
+  #characterCarousel:hover [class*="cutover"] {
+    display: block;
+    opacity: 1;
+  }
+}
+@media (width < 740px) {
+  #characterCarousel {
+    background: url("https://monmusu-td.jp/_nuxt/img/section_background_2.6e0bf9d.jpg") center/cover no-repeat;
+  }
+
+  #characterCarousel-list {
+    padding-bottom: 126%;
+  }
+
+  #characterCarousel-navs li {
+    margin-bottom: 6px;
+    width: 17%;
+    height: auto;
+  }
+
+  [class*="cutover"] {
+    display: none;
+  }
+}

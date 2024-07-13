@@ -1,0 +1,41 @@
+.quest-rewardtable {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 0;
+
+  li {
+    border-bottom: 2px solid var(--color-border);
+  }
+
+  li,
+  i {
+    margin: 2px 4px;
+    width: calc(25% - 8px);
+
+    @media (width<=760px) {
+      width: calc(33.33% - 8px);
+    }
+    @media (width<=540px) {
+      width: calc(50% - 8px);
+    }
+
+    > div {
+      text-align: center;
+      font-size: 1.2rem;
+      @include text-ellipsis;
+    }
+
+    > p {
+      display: flex;
+
+      > img {
+        width: 21.5px;
+      }
+
+      span:nth-child(1) {
+        display: inline-block;
+        margin-right: auto;
+      }
+    }
+  }
+}

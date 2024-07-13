@@ -1,0 +1,39 @@
+html[data-theme="light"] {
+  /* 文本 */
+  --text-color: black;
+  --text-color-2: white;
+  --text-color-hover: #7CEBAD;
+  --text-color-selected: #39c083;
+  --text-color-selected-2: red;
+  --text-color-selected-3: #29df8d;
+  /* 背景 */
+  --color-bg: var(--text-color-2);
+  --color-bg-checked: #54e88d;
+  --color-bg-btn: rgb(219 219 219);
+  --color-bg-btn-2: rgb(219 219 219);
+  --color-bg-slider: var(--color-bg-btn-2);
+  --color-bg-tran: var(--color-bg-checked);
+  --color-bg-rgb: 255 255 255;
+  --color-bg-rgb-2: 124 235 173;
+  --color-bg-hover: var(--text-color-hover);
+  --color-bg-hover-2: rgb(235, 235, 235);
+  /* 滚动条 */
+  --scrollbar-color: #4ddd7d;
+  --scrollbar-color-hover: var(--color-bg-hover);
+  --scrollbar-color-track: #d3d3d3a4;
+  /* 边框 */
+  --color-border: #69ec69;
+  --color-border-2: var(--color-bg-btn);
+  --color-border-btn: var(--color-border);
+  /* 阴影 */
+  --color-shadow: #a6f0bf;
+  --color-shadow-rgb: 0 0 0;
+  /* 聚焦以及未聚焦 */
+  --color-unfocus: #cccccc;
+  --color-focus: var(--color-border);
+
+  --skeleton-color: #ededed;
+  --skeleton-color-rgb: 255 255 255;
+
+  color-scheme: light;
+}

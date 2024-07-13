@@ -1,0 +1,52 @@
+.level-list {
+  overflow: auto;
+  box-sizing: border-box;
+  margin-right: 3px;
+  border: 2px solid var(--color-border);
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 5px 1px var(--color-shadow);
+  cursor: default;
+  @include scroll;
+  @media (width <=860px) {
+    border: none;
+  }
+
+  li {
+    box-sizing: border-box;
+    margin: 8px auto;
+    padding: 4px;
+    border: 2px solid var(--color-border);
+    border-radius: 5px;
+    width: 97%;
+    font-family: "メイリオ", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", sans-serif;
+
+    &:hover {
+      background-color: var(--color-bg-hover-2);
+    }
+
+    &.active {
+      color: var(--text-color-selected-2) !important;
+    }
+
+    p {
+      height: 20px;
+      line-height: 20px;
+      font-size: 1.2rem;
+      @include text-ellipsis;
+
+      &:nth-child(n+2) {
+        display: flex;
+        font-size: 1.3rem;
+      }
+
+      span {
+        display: inline-block;
+      }
+
+      span:nth-child(1) {
+        width: 75%;
+      }
+    }
+  }
+}

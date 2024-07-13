@@ -1,0 +1,35 @@
+.quest-category-list {
+  justify-content: space-evenly;
+
+  li,
+  i {
+    width: 45%;
+  }
+
+  li {
+    box-sizing: border-box;
+    padding: 10px 5px;
+    border: var(--color-border) solid 2px;
+    border-radius: 20px;
+    cursor: default;
+    transition: .2s;
+
+    &:hover {
+      background-color: var(--color-bg-hover-2);
+    }
+
+    p {
+      text-align: center;
+
+      &:nth-child(1) {
+        padding-bottom: 5px;
+        font-weight: bold;
+        font-size: clamp(1.6rem, 1.6vw, 1.8rem);
+      }
+
+      &:nth-child(2) {
+        font-size: clamp(1.4rem, 1.6vw, 1.6rem);
+      }
+    }
+  }
+}

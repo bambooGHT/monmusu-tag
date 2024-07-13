@@ -1,0 +1,30 @@
+.unitList-sort {
+  display: flex;
+  font-family: sans-serif;
+  font-weight: bold;
+
+  div {
+    margin: 2px 10px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 1.5rem;
+
+    &:nth-last-of-type(1) {
+      margin-left: 30px;
+      font-size: 1.7rem;
+    }
+  }
+}
+
+.active {
+  border-bottom: 2px solid #4172E4;
+  color: #4172E4;
+}
+
+.reverse {
+  transform: rotateZ(90deg);
+}
+
+.reverse1 {
+  transform: rotateZ(-90deg);
+}

@@ -1,0 +1,39 @@
+.level-slider {
+  @include flex-center;
+}
+
+input {
+  margin: 0 10px;
+}
+
+input[type="number"] {
+  border: 2px solid var(--color-border-2);
+  width: 35px;
+  text-align: center;
+  font-size: 1.5rem;
+
+  &:not(:in-range) {
+    border: 2px solid rgb(194 0 0);
+  }
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    appearance: none;
+  }
+}
+
+.unit-level-exp {
+  @include flex-center;
+  font-size: 1.3rem;
+
+  ul {
+    display: flex;
+    margin: 0 5px;
+
+    li {
+      margin: 0 5px;
+      width: max-content;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,181 @@
+.level-info {
+  display: flex;
+  height: 100%;
+
+  article {
+    overflow-y: auto;
+    height: 100%;
+    @include no-scroll
+  }
+
+  article:nth-child(1) {
+    padding-right: 5px;
+    width: calc(42% - 5px);
+  }
+
+  article:nth-child(2) {
+    width: 58%;
+  }
+
+  @media (width<=760px) {
+    overflow-x: auto;
+    @include scroll;
+    scroll-snap-type: x mandatory;
+
+    article {
+      scroll-snap-align: start;
+      flex-shrink: 0;
+      width: 100% !important;
+    }
+  }
+
+  p {
+    white-space: pre-wrap;
+  }
+
+  .info-1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    p {
+      display: flex;
+      margin-right: 10px;
+      border-bottom: 2px solid var(--color-border);
+      width: calc(50% - 10px);
+      line-height: 25px;
+
+      img {
+        width: 20px;
+        vertical-align: middle;
+      }
+
+      span {
+        margin-right: auto;
+        padding-right: 7px;
+        width: max-content;
+      }
+    }
+  }
+
+  .info-text :deep(*[style]) {
+    text-shadow: 1px 1px 2px rgb(var(--color-shadow-rgb) / 70%),
+      1px 1px 2px rgb(var(--color-shadow-rgb) / 70%);
+    font-weight: 500;
+  }
+}
+
+.battle-units {
+  display: flex;
+  flex-wrap: wrap;
+
+  li:nth-child(n+2) {
+    margin-left: 5px;
+  }
+}
+
+@media (width>860px) {
+  .win-rewards {
+    margin-top: 0 !important;
+  }
+}
+
+.level-rewardtable {
+  li,
+  i {
+    width: calc(33.33% - 10px);
+
+    @media (width<=850px) {
+      width: calc(50% - 10px);
+    }
+
+    @media (width<=760px) {
+      width: calc(33.33% - 10px);
+    }
+
+    @media (width<=520px) {
+      width: calc(50% - 10px);
+    }
+  }
+}
+
+.level-storys {
+  li {
+    width: max-content;
+    height: 30px;
+    line-height: 30px;
+  }
+}
+
+.rewards {
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    margin-bottom: 3px;
+    width: 50%;
+
+    @media (width<=500px) {
+      width: 100%;
+    }
+  }
+
+  .rewards-item {
+    display: flex;
+    align-items: center;
+
+    .icon {
+      margin: 0;
+      width: max-content;
+    }
+  }
+}
+
+.enemyBuffMenu {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 1.2rem;
+
+  li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 0 2px;
+    border: 2px solid var(--color-border);
+    width: calc(33.33% - 4px);
+
+    p:nth-child(1) {
+      font-size: 1.3rem;
+    }
+
+    p:nth-child(2) {
+      margin: 2px 0;
+    }
+  }
+  @media (width<=760px) {
+    li {
+      width: calc(33.33% - 4px);
+    }
+  }
+}
+
+.attachList {
+  li {
+    margin-bottom: 5px;
+    padding: 3px 0;
+    border: 2px solid var(--color-border);
+
+    p {
+      text-align: center;
+      font-size: 1.2rem;
+
+      &:nth-child(1) {
+        margin-bottom: 5px;
+        font-size: 1.45rem;
+      }
+    }
+  }
+}

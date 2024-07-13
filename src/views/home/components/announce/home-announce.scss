@@ -1,0 +1,29 @@
+.announce {
+  margin: 10px 0;
+  width: 55%;
+
+  @media (width < 740px) {
+    width: 99%;
+  }
+
+  &-list {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    position: relative;
+    padding-bottom: 56.25%;
+    width: 100%;
+    scroll-snap-type: x mandatory;
+    @include scroll;
+
+    li {
+      scroll-snap-align: center;
+      flex: 1 0 100%;
+    }
+
+    img {
+      position: absolute;
+      width: 100%;
+    }
+  }
+}

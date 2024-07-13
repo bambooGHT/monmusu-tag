@@ -1,0 +1,70 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin center {
+  inset: 0;
+  margin: auto;
+}
+
+@mixin position-abs-center {
+  @include center;
+
+  position: absolute;
+}
+
+@mixin position-fixed-center {
+  position: fixed;
+
+  @include center;
+}
+
+@mixin text-ellipsis($lineNum: 1) {
+  display: block;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+
+  @if $lineNum == 1 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  } @else {
+    display: -webkit-box;
+    -webkit-line-clamp: $lineNum;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+  }
+}
+
+@mixin scroll($size :6px) {
+  &::-webkit-scrollbar-track {
+    border-radius: 15px;
+    background: var(--scrollbar-color-track);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background: var(--scrollbar-color);
+
+    &:hover {
+      background: var(--scrollbar-color-hover);
+    }
+  }
+
+  &::-webkit-scrollbar {
+    width: $size;
+    height: $size;
+  }
+}
+
+@mixin no-scroll() {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@mixin item-visibility($height) {
+  content-visibility: auto;
+  contain-intrinsic-size: auto $height;
+}

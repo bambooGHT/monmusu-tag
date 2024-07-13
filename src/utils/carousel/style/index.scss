@@ -1,0 +1,81 @@
+.DCLLCarousel-1 {
+  position: relative;
+  width: 100%;
+
+  &-list {
+    width: 100%;
+    touch-action: none;
+
+    li {
+      position: absolute;
+      width: 100%;
+      opacity: 0;
+      pointer-events: none;
+      user-select: none;
+    }
+
+    li.list-center,
+    li.list-prev,
+    li.list-next {
+      transition: .5s ease;
+    }
+
+    li.list-center {
+      z-index: 3;
+      opacity: 1;
+    }
+
+    li.list-prev {
+      z-index: 2;
+      transform: translateX(-100%);
+    }
+
+    li.list-next {
+      z-index: 2;
+      transform: translateX(100%);
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  &-nav {
+    display: flex;
+    z-index: 10;
+    flex-wrap: wrap;
+    justify-content: center;
+    user-select: none;
+
+    li {
+      margin: 0 5px;
+      cursor: pointer;
+    }
+
+    li.current {
+      background-color: rgb(43 99 255);
+    }
+  }
+
+  &-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    margin: auto;
+    height: min-content;
+    cursor: pointer;
+    user-select: none;
+    transition: .3s;
+  }
+
+
+  &-toggle-next {
+    right: 0;
+  }
+
+  &-toggle-prev {
+    left: 0;
+  }
+}

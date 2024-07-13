@@ -1,0 +1,43 @@
+.prop-info-box {
+  @include position-fixed-center;
+  visibility: hidden;
+  z-index: 99999;
+  border: 2px solid var(--color-border);
+  border-radius: 10px;
+  width: 320px;
+  height: min-content;
+  min-height: 200px;
+  background-color: var(--color-bg);
+  font-size: 1.25rem;
+  transform: scale(0.01);
+  transition: .35s;
+
+  .info {
+    padding: 5px;
+    white-space: pre-warp;
+
+    .name {
+      margin: 3px 0;
+      text-align: center;
+      font-size: 1.4rem;
+    }
+
+    hr {
+      margin: 3px 0;
+      border-color: var(--color-border);
+    }
+  }
+
+  .related-character {
+    margin: 4px auto;
+    padding: 3px 0;
+    border-top: 2px solid var(--color-border-2);
+    width: 150px;
+    text-align: center;
+  }
+}
+
+.show-prop {
+  visibility: visible;
+  transform: scale(1);
+}

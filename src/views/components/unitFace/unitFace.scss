@@ -1,0 +1,30 @@
+.unit-icon {
+  margin: 0 0 1px;
+  width: clamp(80px, 9vw, 120px);
+  text-align: center;
+  font-size: clamp(1.2rem, 1.3vw, 1.3rem);
+
+  :deep(>p) {
+    @include text-ellipsis;
+  }
+}
+
+.unit-icon-img {
+  display: block;
+  position: relative;
+  padding-bottom: 80.4%;
+  cursor: pointer;
+
+  img {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
+  }
+}
+
+.unit-icon-enemy .unit-icon-img {
+  padding-bottom: 0%;
+  height: clamp(80px, 9vw, 120px);
+}
